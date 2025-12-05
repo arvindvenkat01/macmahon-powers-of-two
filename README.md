@@ -71,6 +71,24 @@ This will:
 
 You can increase `LIMIT` in `verify_theorems.py` if you want to push the numerical verification further, at the cost of longer runtime.
 
+## Expected Output
+The script will precompute the necessary arithmetic tables and then scan for Mersenne primes. You should see output similar to this:
+```bash
+Generating partition data up to n=600000...
+
+Scanning integers 2..600000 for Mersenne Primes...
+Criterion: n is Prime AND n+1 is Power of 2
+Formula:   (L_prime(n))^2 + (L_pow2(n+1))^2 == 0
+
+FOUND MERSENNE PRIME #1: n = 3
+FOUND MERSENNE PRIME #2: n = 7
+FOUND MERSENNE PRIME #3: n = 31
+FOUND MERSENNE PRIME #4: n = 127
+FOUND MERSENNE PRIME #5: n = 8191
+FOUND MERSENNE PRIME #6: n = 131071
+FOUND MERSENNE PRIME #7: n = 524287
+```
+
 ## Citation
 
 If you use this code or note in your own work, you might cite it as:
