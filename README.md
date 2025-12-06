@@ -1,6 +1,18 @@
 # MacMahon Powers of Two
 
-Expository code for an elementary MacMahon-partition characterization of powers of two and Mersenne primes.
+This repository contains the Python code and data for the paper:
+
+**"An Expository Note on MacMahon's Partition Statistics and the Elementary Detection of Powers of Two"**
+
+* **Authors:** Arvind N. Venkat
+  
+This work has been archived and assigned a permanent identifier on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17841690.svg)](https://doi.org/10.5281/zenodo.17841690)
+
+### Pre-print:
+* **DOI** - 10.5281/zenodo.17841690
+* **URL** - https://zenodo.org/records/17841690
 
 ## Overview
 
@@ -93,7 +105,18 @@ FOUND MERSENNE PRIME #7: n = 524287
 
 If you use this code or note in your own work, you might cite it as:
 
-> Venkat, *An Expository Note on MacMahon's Partition Statistics and the Elementary Detection of Powers of Two*, Zenodo preprint, 2025.
+@misc{naladiga_venkat_2025_17841690,
+  author       = {Naladiga Venkat, Arvind},
+  title        = {An Expository Note on MacMahon's Partition
+                   Statistics and the Elementary Detection of Powers
+                   of Two
+                  },
+  month        = dec,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17841690},
+  url          = {https://doi.org/10.5281/zenodo.17841690},
+}
 
 and optionally also cite Craig–van Ittersum–Ono for the primality detector:
 
